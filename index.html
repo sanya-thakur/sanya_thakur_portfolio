@@ -163,6 +163,18 @@
         button:hover {
             background: #343A40;
         }
+        /* Mobile layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* stack items vertically */
+    gap: 10px;
+  }
+
+  .download-btn {
+    margin-left: 0; /* reset auto margin */
+    order: 1; /* place it below links */
+  }
+}
     </style>
 </head>
 <body>
